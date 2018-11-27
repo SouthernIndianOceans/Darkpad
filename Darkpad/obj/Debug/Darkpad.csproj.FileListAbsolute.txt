@@ -1,0 +1,16 @@
+F:\Visual Studio 2015\Darkpad\Darkpad\bin\Debug\Darkpad.exe.config
+F:\Visual Studio 2015\Darkpad\Darkpad\bin\Debug\Darkpad.exe
+F:\Visual Studio 2015\Darkpad\Darkpad\bin\Debug\Darkpad.pdb
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\MainWindow.g.cs
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\App.g.cs
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad_MarkupCompile.cache
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad_MarkupCompile.lref
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\MainWindow.baml
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad.g.resources
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad.Properties.Resources.resources
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad.csproj.GenerateResource.Cache
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad.exe
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\Darkpad.pdb
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\ColorDialog.g.cs
+F:\Visual Studio 2015\Darkpad\Darkpad\obj\Debug\ColorDialog.baml
