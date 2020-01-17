@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Darkpad.FontBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Darkpad"
+             mc:Ignorable="d" 
+             d:DesignHeight="80" d:DesignWidth="300">
+    <Grid>
+        <Label Name="Title" Content="Select Font" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Height="25" Background="#FF9B0494" FontFamily="{Binding ElementName=Fb, Path=SelectedItem}"/>
+        <ComboBox Name="Fb" Margin="10,35,80,10" ItemsSource="{x:Static Fonts.SystemFontFamilies}" SelectedIndex="10" FontSize="18"/>
+        <Button HorizontalAlignment="Right" Margin="0,35,10,10" Width="60" Background="#FF9B0494" BorderBrush="#FF9B0494" Content="OK" Foreground="#FFF0F0F0" FontSize="14" Click="Button_Click"/>
+    </Grid>
+</UserControl>

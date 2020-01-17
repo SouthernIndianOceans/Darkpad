@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Darkpad
 {
@@ -53,17 +43,16 @@ namespace Darkpad
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (front)
+            if (!front)
             {
-                MainWindow.FF = Color.FromRgb(Convert.ToByte(R.Text), Convert.ToByte(G.Text), Convert.ToByte(B.Text));
+                Global.Editor.Background = Bdr.Background;
             }
             else
             {
-                MainWindow.BB = Color.FromRgb(Convert.ToByte(R.Text), Convert.ToByte(G.Text), Convert.ToByte(B.Text));
+                Global.Editor.Foreground = Bdr.Background;
             }
             ((Panel)Parent).Children.Remove(this);
-        }
-
+        }  
         private void C_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             C.Value = (int)C.Value;
